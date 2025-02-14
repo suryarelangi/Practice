@@ -27,7 +27,7 @@ metadata:
   name: svc1
   namespace: apps
 spec:
-  type: loadBalancer
+  type: LoadBalancer
   selector:
     app: web
   ports:
